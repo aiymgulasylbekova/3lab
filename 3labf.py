@@ -1,8 +1,9 @@
 a=int(input())
 b=int(input())
 
-if a<=b:
+if a<b:
   for i in range(a,b+1):
     print(i)
 else:
-    print("Қате")
+     for i in range(a, b-1, -1):
+        print(i)
