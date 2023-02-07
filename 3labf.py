@@ -1,5 +1,8 @@
-a=int(input())
-b=int(input())
+n=int(input())
+sum1=n
+sum2=0
+for i in range(1, n):
+    sum1+=i
+    sum2+=int(input())
+print("Жоғалған карточка: ", sum1-sum2)
 
-for i in range(a-int((a%2)==0), b-1, -2):
-    print(i)
